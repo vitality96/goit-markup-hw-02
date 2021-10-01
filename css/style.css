@@ -1,0 +1,103 @@
+/* колір основного тексту #212121; */
+/* вторинний колір тексту #757575 */
+/* акцент #2196F3 */
+/* білий #FFFFFF */
+/* колір героя і футера #2F303A */
+/* вторинний колір фону #F5F4FA */
+
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+  --bg-color-hero-foot: #2f303a;
+}
+
+body {
+  background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
+}
+
+/* Логотип */
+
+.logo {
+  color: var(--accent-color);
+}
+
+.logo-primary {
+  color: #000000;
+}
+
+.logo-secondary {
+  color: var(--primary-white-color);
+}
+
+/* Навігація */
+
+.site-nav {
+  list-style: none;
+}
+
+.site-nav .link {
+  color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+/* Контакти */
+
+.contacts {
+  list-style: none;
+}
+.contacts .contact {
+  color: var(--primary-text-color);
+}
+
+.contacts .contact:hover,
+.contacts .contact:focus {
+  color: var(--accent-color);
+}
+
+/* Герой */
+
+.hero {
+  background-color: var(--bg-color-hero-foot);
+}
+
+.hero-title {
+  color: var(--primary-white-color);
+}
+
+.hero-btn {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+}
+
+/* Особливості */
+
+.features-list {
+  list-style: none;
+}
+
+.features-title {
+  color: var(--title-text-color);
+}
+
+/* Зайнятість */
+
+.work-list {
+  list-style: none;
+}
+
+.work-title {
+  color: var(--title-text-color);
+}
+
+/* Команда */
