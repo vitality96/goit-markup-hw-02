@@ -27,7 +27,7 @@ body {
   color: var(--accent-color);
 
   font-family: Raleway, sans-serif;
-  font-weight: 700;
+  font-weight: bold;
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
@@ -46,15 +46,17 @@ body {
 
 .site-nav {
   list-style: none;
-}
-
-.site-nav .link {
-  color: var(--title-text-color);
 
   font-weight: 500;
   font-size: 14px;
   line-height: 1.15;
   letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.site-nav .link {
+  color: var(--title-text-color);
+
   text-decoration: none;
 }
 
@@ -75,6 +77,12 @@ body {
 
 .contact {
   color: var(--primary-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
 .contact:hover,
@@ -90,6 +98,13 @@ body {
 
 .hero-title {
   color: var(--primary-white-color);
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 .hero-btn {
@@ -105,6 +120,17 @@ body {
 
 .features-title {
   color: var(--title-text-color);
+
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.features-text {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
 }
 
 /* Зайнятість */
@@ -115,6 +141,12 @@ body {
 
 .work-title {
   color: var(--title-text-color);
+
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 /* Команда */
@@ -125,6 +157,11 @@ body {
 
 .team-title {
   color: var(--title-text-color);
+
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .team-list {
@@ -133,10 +170,19 @@ body {
 
 .team-text {
   color: var(--title-text-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
 }
 
 .text-subtitle {
   color: var(--primary-text-color);
+
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
 }
 
 /* Футер */
@@ -147,10 +193,27 @@ body {
 
 .adress {
   color: var(--primary-white-color);
+
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.adress:hover,
+.adress:focus {
+  color: var(--accent-color);
 }
 
 .footer-contact {
   color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  font-style: normal;
+}
+
+.footer-contact:hover,
+.footer-contact:focus {
+  color: var(--accent-color);
 }
 
 /* Сторінка сайту Портфоліо */
@@ -159,9 +222,24 @@ body {
   list-style: none;
 }
 
+.portfolio-title {
+  color: var(--title-text-color);
+
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.portfolio-text {
+  font-size: 16px;
+  line-height: 1.8px;
+  letter-spacing: 0.03em;
+}
+
 .button {
   background-color: var(--bg-btn-color);
   color: var(--title-text-color);
+  cursor: pointer;
 }
 
 .button.current {
@@ -173,8 +251,4 @@ body {
 .button:focus {
   background-color: var(--accent-color);
   color: var(--primary-white-color);
-}
-
-.portfolio-title {
-  color: var(--title-text-color);
 }
